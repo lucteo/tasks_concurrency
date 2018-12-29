@@ -6,6 +6,7 @@
 
 class TaskExecutor {
 public:
+    virtual ~TaskExecutor() {}
     virtual void enqueue(Task t) = 0;
 };
 
